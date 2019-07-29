@@ -51,8 +51,8 @@ able to glean from this data.
 
 For example, you may consider activities such as:
 
-* Loading the data into a relational database
-* Writing SQL queries against the relational database to extract information
+* Loading the data into a relational database.
+* Writing SQL queries against the relational database to extract information.
 * Use a tool like [Gnuplot](http://www.gnuplot.info/), [matplotlib](https://matplotlib.org/),
   [Pandas](https://pandas.pydata.org/) or similar to present interesting visualizations or relationships
   you observe in the data.
