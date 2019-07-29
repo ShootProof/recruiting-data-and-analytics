@@ -1,8 +1,6 @@
 # Quality Assurance Exercise
 
-<aside class="warning">
-Exercise development in progress
-</aside>
+> **WARNING**: Exercise development in progress
 
 # Overview
 
