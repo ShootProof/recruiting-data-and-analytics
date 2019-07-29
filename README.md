@@ -26,13 +26,18 @@ used in our data and analytics engineering team here at ShootProof.
     * If working with ShootProof directly, deliver to <careers+dae@shootproof.com>.
   * Fork our repository and open a pull request.
 
+There are no right or wrong answers.  We are deliberately offering creative
+freedom and interpretation to all candidates who are completing this exercise.
+You would receive similar tasks on the job and would be given similar latitude
+with how you approach the problem and deliver business insights.
+
 # Exercise: Communicate business insights from raw data
 
 First, let's talk about or domain models:
 
-* *Order*: an order represents a set of prints, digital downloads, etc. placed
+* **Order**: an order represents a set of prints, digital downloads, etc. placed
   by a customer's end client.  An order always contains one or more order items.
-* *Order Item*: an order item is a single item in an order.  It has metadata
+* **Order Item**: an order item is a single item in an order.  It has metadata
   such as a name, price, and quantity.
 
 In this repository, you'll find a `order-item-data.csv` file.  It contains a
@@ -46,7 +51,7 @@ This is a data set that represents real world cases you would find at
 ShootProof.  Using this data set, provide some business insights that you are
 able to glean from this data.
 
-You may do this by activities such as:
+For example, you may consider activities such as:
 
 * Loading the data into a relational database
 * Writing SQL queries against the relational database to extract information
@@ -54,12 +59,19 @@ You may do this by activities such as:
   [Pandas](https://pandas.pydata.org/) or similar to present interesting visualizations or relationships
   you observe in the data.
 
-### Answer the following questions
+The business insights you provide are solely up to you; be as insightful and
+creative as you would like.
+
+Please provide your insights in any of the following forms:
+
+* Paragraph-form explaining your insights
+* Data visualizations
 
 ### Provide outline of steps you would use to ingest this data set
 
-You may illustrate your actual working with this data by including actual
+You may illustrate your approach to working with this data by including actual
 command-line output, shell commands, etc.  Your data ingestion steps may be
 replayable by the reviewer, but this is not required.
 
-### Provide two or more business insights you glean from this data set
+Describe why you would approach the ingestion of this data in the manner you
+chose.
