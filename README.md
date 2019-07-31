@@ -1,4 +1,4 @@
-# Quality Assurance Exercise
+# Data and Analytics Exercise
 
 > **WARNING**: Exercise development in progress
 
@@ -6,7 +6,7 @@
 
 Here at ShootProof, we prefer to have a good idea of a candidate's technical
 experience and analysis skills before proceeding with portions of our recruiting
-process.  We believe that the exercises below will illustrate a candidate's
+process.  We believe that the exercise below will illustrate a candidate's
 approach to working with technologies and methodologies that may be commonly
 used in our data and analytics engineering team here at ShootProof.
 
@@ -31,7 +31,7 @@ with how you approach the problem and deliver business insights.
 
 # Exercise: Communicate business insights from raw data
 
-First, let's talk about or domain models:
+First, let's talk about our domain models:
 
 * **Order**: an order represents a set of prints, digital downloads, etc. placed
   by a customer's end client.  An order always contains one or more order items.
