@@ -1,7 +1,5 @@
 # Data and Analytics Exercise
 
-> **WARNING**: Exercise development in progress
-
 # Overview
 
 Here at ShootProof, we prefer to have a good idea of a candidate's technical
