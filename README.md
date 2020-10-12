@@ -1,73 +1,45 @@
-# Data and Analytics Exercise
+﻿# ShootProof Data Analyst 
+Here at ShootProof, we prefer to have a good idea of a candidate's technical experience and analysis skills before proceeding with portions of our recruiting process. We believe that the exercise below will illustrate a candidate's approach to working with technologies and methodologies that may be commonly used in our data and analytics engineering team here at ShootProof.
 
-# Overview
+## Guidelines
+-  This exercise should not take you more than two hours to complete. If your solution is taking longer, that's okay—be honest and let us know how long it took and why you think it took that long.
+- The data is provided as a SQLite Database. Please download the database file and connect using the tools provided below.
+-   Be as thorough as you wish.
+-   All exercises are to be performed as if you were on the job.
+-   Please include both the answer and the SQL code 
+-  For the Data Visualization portion, there are no right or wrong answers. We are deliberately offering creative freedom and interpretation to all candidates who are completing this exercise. You would receive similar tasks on the job and would be given similar latitude with how you approach the problem and deliver business insights.
 
-Here at ShootProof, we prefer to have a good idea of a candidate's technical
-experience and analysis skills before proceeding with portions of our recruiting
-process.  We believe that the exercise below will illustrate a candidate's
-approach to working with technologies and methodologies that may be commonly
-used in our data and analytics engineering team here at ShootProof.
+## SQL IDE
+DBeaver is an open source SQL IDE that supports SQLite databases. 
 
-# Guidelines
+#### DBeaver Download 
+https://dbeaver.io/download/
 
-* This exercise should not take you more than two hours to complete. If
-  your solution is taking longer, that's okay—be honest and let us know how long
-  it took and why you think it took that long.
-* Be as thorough as you wish.
-* All exercises are to be performed as if you were on the job.
-* You may submit your response in one of the following ways:
-  * Package an archive (ZIP, tarball, etc.) of your files and deliver it to
-    your contact.
-    * If working with a recruiter, deliver it to them.
-    * If working with ShootProof directly, deliver to <careers+dae@shootproof.com>.
-  * Fork our repository and open a pull request.
+#### How to connect to a SQLite Database
+https://www.devart.com/odbc/sqlite/docs/index.html?dbeaver.htm
 
-There are no right or wrong answers.  We are deliberately offering creative
-freedom and interpretation to all candidates who are completing this exercise.
-You would receive similar tasks on the job and would be given similar latitude
-with how you approach the problem and deliver business insights.
+## Tableau Public
+A free version of Tableau is available here: [https://public.tableau.com/en-us/s/download](https://public.tableau.com/en-us/s/download)
 
-# Exercise: Communicate business insights from raw data
+## ShootProof Data Definitions
+**Customer** - A studio in a status of Active or Suspended, on a plan with a value > 0, and no longer in the trial period
 
-First, let's talk about our domain models:
+**Churn** - A studio that was considered a customer in the previous time period, that is no longer a customer
 
-* **Order**: an order represents a set of prints, digital downloads, etc. placed
-  by a customer's end client.  An order always contains one or more order items.
-* **Order Item**: an order item is a single item in an order.  It has metadata
-  such as a name, price, and quantity.
+**Trial Signup** - All studios start as a trial, the signup date is the same date the studio is created
 
-In this repository, you'll find a `order-item-data.csv` file.  It contains a
-data set with one row per order item.  You will find `order_id` and
-`order_item_id` values, along with additional values on the order and order
-items.
+## SQL Assessment
 
-## Your task
+1.  How many customers does ShootProof have?
+2.  How many customers are on currently on a plan that allows 5000 photos?
+3.  How many trials completed in June 2018?
+4.  How many customers did ShootProof have on April 30th, 2020?
+5.  How many customers churned between January 1, 2019 and January 1, 2020?
 
-This is a data set that represents real world cases you would find at
-ShootProof.  Using this data set, provide some business insights that you are
-able to glean from this data.
+## Data Visualization Assessment
 
-For example, you may consider activities such as:
+Using a Tableau Public create a dashboard using the data available. Please limit this portion of the assessment to 1 hour.
 
-* Loading the data into a relational database.
-* Writing SQL queries against the relational database to extract information.
-* Use a tool like [Gnuplot](http://www.gnuplot.info/), [matplotlib](https://matplotlib.org/),
-  [Pandas](https://pandas.pydata.org/) or similar to present interesting visualizations or relationships
-  you observe in the data.
+*Hint: Possible items to explore are customer segmentation, customer churn, customer growth, trial conversions, ect.*
 
-The business insights you provide are solely up to you; be as insightful and
-creative as you would like.
 
-Please provide your insights in any of the following forms:
-
-* Paragraph-form explaining your insights
-* Data visualizations
-
-### Provide outline of steps you would use to ingest this data set
-
-You may illustrate your approach to working with this data by including actual
-command-line output, shell commands, etc.  Your data ingestion steps may be
-replayable by the reviewer, but this is not required.
-
-Describe why you would approach the ingestion of this data in the manner you
-chose.
