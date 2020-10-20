@@ -18,6 +18,9 @@ https://dbeaver.io/download/
 #### How to connect to a SQLite Database
 https://www.devart.com/odbc/sqlite/docs/index.html?dbeaver.htm
 
+SQLite has a handful of unique quirks. Our intention is not to test your knowledge of SQLite specific syntax. If there is an issue completing a task please share how you would accomplish that task using the SQL syntax you would normally use.
+
+[SQLite Documentation](https://www.sqlitetutorial.net/sqlite-date-functions/sqlite-date-function/) 
 ## Tableau Public
 A free version of Tableau is available here: [https://public.tableau.com/en-us/s/download](https://public.tableau.com/en-us/s/download)
 
