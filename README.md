@@ -47,9 +47,9 @@ A free version of Tableau is available here: [https://public.tableau.com/en-us/s
 
 Using a Tableau Public (or Tableau Desktop if you have a license), create a dashboard using the data available. Please limit this portion of the assessment to 1 hour
 
-*Hints:* 
-*- Possible items to explore are customer segmentation, customer churn, customer growth, trial conversions, etc.*
-*- If using Tableau Public, note that it does not support live data connectors. You should export the dataset you intend to use for visualization to either Excel or .csv *
+Hints:
+1. Possible items to explore are customer segmentation, customer churn, customer growth, trial conversions, etc.
+2. If using Tableau Public, note that it does not support live data connectors. You should export the dataset you intend to use for visualization to either Excel or .csv
 
 ## Deliverables
 
