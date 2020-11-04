@@ -1,16 +1,17 @@
 ﻿# ShootProof Data Analyst
-Here at ShootProof, we prefer to have a good idea of a candidate's technical experience and analysis skills before proceeding with portions of our recruiting process. We believe that the exercise below will illustrate a candidate's approach to working with technologies and methodologies that may be commonly used in our data and analytics engineering team here at ShootProof.
+Here at ShootProof, we prefer to have a good idea of a candidate's technical experience and analysis skills before proceeding with portions of our recruiting process. We believe that the exercise below will illustrate a candidate's approach to working with technologies and methodologies that may be commonly used in our data and analytics engineering team here at ShootProof
 
 ## Guidelines
--  This exercise should not take you more than two hours to complete. If your solution is taking longer, that's okay—be honest and let us know how long it took and why you think it took that long.
-- The data is provided as a SQLite Database. Please download the database file and connect using the tools provided below.
--   Be as thorough as you wish.
--   All exercises are to be performed as if you were on the job.
+-  This exercise should not take you more than two hours to complete. If your solution is taking longer, that's okay—be honest and let us know how long it took and why you think it took that long
+- The data is provided as a SQLite Database. Please download the database file and connect using the tools provided below
+-   Be as thorough as you wish
+-   All exercises are to be performed as if you were on the job
 -   Please include both the answer and the SQL code
--  For the Data Visualization portion, there are no right or wrong answers. We are deliberately offering creative freedom and interpretation to all candidates who are completing this exercise. You would receive similar tasks on the job and would be given similar latitude with how you approach the problem and deliver business insights.
+-  For the Data Visualization portion, there are no right or wrong answers. We are deliberately offering creative freedom and interpretation to all candidates who are completing this exercise. You would receive similar tasks on the job and would be given similar latitude with how you approach the problem and deliver business insights
+- The data files in the tables folder included in this .zip can be ignored. These files represent a superset of the data included in the provided SQLite DB and so any SQL answer or data visualization based this data will provide incorrect results
 
 ## SQL IDE
-DBeaver is an open source SQL IDE that supports SQLite databases.
+DBeaver is an open source SQL IDE that supports SQLite databases
 
 #### DBeaver Download
 https://dbeaver.io/download/
@@ -18,9 +19,9 @@ https://dbeaver.io/download/
 #### How to connect to a SQLite Database
 https://www.devart.com/odbc/sqlite/docs/index.html?dbeaver.htm
 
-SQLite has a handful of unique quirks. Our intention is not to test your knowledge of SQLite specific syntax. If there is an issue completing a task please share how you would accomplish that task using the SQL syntax you would normally use.
+SQLite has a handful of unique quirks. Our intention is not to test your knowledge of SQLite specific syntax. If there is an issue completing a task please share how you would accomplish that task using the SQL syntax you would normally use
 
-One particular SQLite quirk pertains to dates and the fact that this is not a defined datatype. Rather, you will need to leverage SQLite's built-in date and time functions. See below for notes on how to best manage this.
+One particular SQLite quirk pertains to dates and the fact that this is not a defined datatype. Rather, you will need to leverage SQLite's built-in date and time functions. See below for notes on how to best manage this
 
 [SQLite Documentation](https://www.sqlitetutorial.net/sqlite-date-functions/sqlite-date-function/)
 
@@ -44,6 +45,15 @@ A free version of Tableau is available here: [https://public.tableau.com/en-us/s
 
 ## Data Visualization Assessment
 
-Using a Tableau Public create a dashboard using the data available. Please limit this portion of the assessment to 1 hour.
+Using a Tableau Public (or Tableau Desktop if you have a license), create a dashboard using the data available. Please limit this portion of the assessment to 1 hour
 
-*Hint: Possible items to explore are customer segmentation, customer churn, customer growth, trial conversions, ect.*
+*Hints:* 
+*- Possible items to explore are customer segmentation, customer churn, customer growth, trial conversions, etc.*
+*- If using Tableau Public, note that it does not support live data connectors. You should export the dataset you intend to use for visualization to either and Excel or .csv *
+
+## Deliverables
+
+Submission for this exercise should include the following:
+1. Text file including SQL for all answers to the SQL Assessment portion of the exercise
+2. Link to the Tableau Public dashboard created from the Data Visualization Assessment, or a Tableau workbook file (if using Tableau Desktop)
+3. If using an exported .csv or Excel file as your datasource for Tableau, please include these as well as a text file documenting the SQL used to produce the extract
