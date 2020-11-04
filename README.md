@@ -49,7 +49,7 @@ Using a Tableau Public (or Tableau Desktop if you have a license), create a dash
 
 *Hints:* 
 *- Possible items to explore are customer segmentation, customer churn, customer growth, trial conversions, etc.*
-*- If using Tableau Public, note that it does not support live data connectors. You should export the dataset you intend to use for visualization to either and Excel or .csv *
+*- If using Tableau Public, note that it does not support live data connectors. You should export the dataset you intend to use for visualization to either Excel or .csv *
 
 ## Deliverables
 
