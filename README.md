@@ -1,5 +1,5 @@
 ﻿# ShootProof Data Analyst
-Here at ShootProof, we prefer to have a good idea of a candidate's technical experience and analysis skills before proceeding with portions of our recruiting process. We believe that the exercise below will illustrate a candidate's approach to working with technologies and methodologies that may be commonly used in our data and analytics engineering team here at ShootProof
+Here at ShootProof, we prefer to have a good idea of a candidate's technical experience and analysis skills before proceeding with portions of our recruiting process. We believe that the exercise below will illustrate a candidate's approach to working with technologies and methodologies that may be commonly used in our data and analytics engineering team here at ShootProof.
 
 ## Guidelines
 -  This exercise should not take you more than two hours to complete. If your solution is taking longer, that's okay—be honest and let us know how long it took and why you think it took that long
