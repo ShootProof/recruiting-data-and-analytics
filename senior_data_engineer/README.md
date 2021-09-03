@@ -8,15 +8,15 @@ The data provided for this exercise is a sample derived from the ShootProof (a F
 
 -   This exercise should not take you more than 2-3 hours to complete. If your solution is taking longer, that's okay—be honest and let us know how long it took and why you think it took that long
 -   The data is provided in a raw csv format. You are welcome to use the DB of your choosing to ingest this data for querying and analysis.
--   Be as thorough as you wish
--   All exercises are to be performed as if you were on the job
--   Please include both the answer and the SQL code
--   Any files (data or otherwise) outside of the previously mentioned .csvs should be ignored. These files represent data or content to support the interviewing of other roles, and using any other data source will provide incorrect results
--   For each question, write out your thought process and any assumptions you might make. Visualizations are encouraged to support any insights given
+-   Be as thorough as you wish.
+-   All exercises are to be performed as if you were on the job.
+-   Please include both the answer and the SQL code.
+-   Any files (data or otherwise) outside of the previously mentioned .csvs should be ignored. These files represent data or content to support the interviewing of other roles, and using any other data source will provide incorrect results.
+-   For each question, write out your thought process and any assumptions you might make. Visualizations are encouraged to support any insights given.
 
 ## ShootProof Data Definitions and Notes
 
-**Customer** - A studio in a status of Active or Suspended, on a plan with a value > $0, and no longer in the trial period
+**Customer** - A studio in a status of Active or Suspended, on a plan with a value > $0, and no longer in the trial period.
 
 **Churn** - A studio that was considered a customer in the previous time period, that is no longer a customer. This can be the closing of the studio's account (status changes to fraud or cancelled), or the studio moves to a free plan.
 
@@ -27,23 +27,22 @@ The data provided for this exercise is a sample derived from the ShootProof (a F
 **Return Win (aka Boomerang)** - At ShootProof, we call a customer a "return win" or "boomerang" when they:
 1.  First, become a paying customer ("first time win"),
 2.  Then churn (see above for logic),
-3.  Finally, become a customer again
+3.  Finally, become a customer again.
 
 **Note on ShootProof Plans** - ShootProof has offered many plans over time, and plans are currency-specific. Most like plans can be grouped based on the max number of photos they allow to be stored. See our website for our standard plan tiers: https://www.shootproof.com/plans
 
 ## Data Assessment
 
 1.  What is the likelihood a studio will have the status of "suspended" sometime during their tenure?
-2.  What is ShootProof's best time of the year for customer acquisition (signups)?
+2.  What is ShootProof's best time of the year for signups?
 3.  Is there an evident worst time of year for churn? If so, when?
-5.  How many studio have "boomeranged"?
-6.  Is there a time where we see more boomerangs than others?
-7.  What is the likelihood a studio boomerangs during their tenure?
-8.  Which plans do customers first join us on? Is is fairly flat over our plan tiers, or are one or more significantly more popular than others?
+4.  How many studio have "boomeranged"?
+5.  What is the likelihood a studio boomerangs during their tenure?
+6.  When a customer converts (aka their "first time win"), what plan do customers typically start on? Is is fairly flat over our plan tiers, or are one or more significantly more popular than others?
 
 
 ## Deliverables
 
 Submission for this exercise should include the following:
-1. Text file including SQL for all answers to the SQL Assessment portion of the exercise
+1. Text file including SQL for all answers to the SQL Assessment portion of the exercise.
 2. Any visualizations or supporting design documents used to facilitate the answering of the questions above.
