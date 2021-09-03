@@ -4,6 +4,8 @@ Here at Foreground, we prefer to have a good idea of a candidate's technical exp
 
 The data provided for this exercise is a sample derived from the ShootProof (a Foreground brand) database. ShootProof provides a SaaS-based platform designed to serve the business needs of professional photographers, including hosting their photos. Customers to the ShootProof platform subscribe to a plan; these plans are tiered based on the total number of photos which can be hosted. 
 
+Data files required for this exercise can be found at: https://github.com/ShootProof/recruiting-data-and-analytics/tree/SeniorDataEngineer/src/tables
+
 ## Guidelines
 
 -   This exercise should not take you more than 3 hours to complete. If your solution is taking longer, that's okay—be honest and let us know how long it took and why you think it took that long.
