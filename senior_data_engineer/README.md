@@ -6,7 +6,7 @@ The data provided for this exercise is a sample derived from the ShootProof (a F
 
 ## Guidelines
 
--   This exercise should not take you more than 2-3 hours to complete. If your solution is taking longer, that's okay—be honest and let us know how long it took and why you think it took that long
+-   This exercise should not take you more than 3 hours to complete. If your solution is taking longer, that's okay—be honest and let us know how long it took and why you think it took that long
 -   The data is provided in a raw csv format. You are welcome to use the DB of your choosing to ingest this data for querying and analysis.
 -   Be as thorough as you wish.
 -   All exercises are to be performed as if you were on the job.
