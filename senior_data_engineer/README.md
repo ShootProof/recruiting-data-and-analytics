@@ -4,7 +4,7 @@ Here at Foreground, we prefer to have a good idea of a candidate's technical exp
 
 The data provided for this exercise is a sample derived from the ShootProof (a Foreground brand) database. ShootProof provides a SaaS-based platform designed to serve the business needs of professional photographers, including hosting their photos. Customers to the ShootProof platform subscribe to a plan; these plans are tiered based on the total number of photos which can be hosted. 
 
-Data files required for this exercise can be found at: https://github.com/ShootProof/recruiting-data-and-analytics/tree/SeniorDataEngineer/src/tables
+Data (.csv) files required for this exercise can be found the included "tables" folder.
 
 ## Guidelines
 
@@ -13,7 +13,7 @@ Data files required for this exercise can be found at: https://github.com/ShootP
 -   Be as thorough as you wish.
 -   All exercises are to be performed as if you were on the job.
 -   Please include both the answer and the SQL code.
--   Any files (data or otherwise) outside of the previously mentioned .csvs should be ignored. These files represent data or content to support the interviewing of other roles, and using any other data source will provide incorrect results.
+-   Any files (data or otherwise) in this repo outside of the previously mentioned .csvs should be ignored. These files represent data or content to support the interviewing of other roles, and using any other data source will provide incorrect results.
 -   For each question, write out your thought process and any assumptions you might make. Visualizations are encouraged to support any insights given.
 
 ## ShootProof Data Definitions and Notes
