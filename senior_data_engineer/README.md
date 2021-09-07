@@ -40,7 +40,7 @@ Data files required for this exercise can be found at: https://github.com/ShootP
 3.  Is there an evident worst time of year for churn? If so, when?
 4.  How many studio have "boomeranged"?
 5.  What is the likelihood a studio boomerangs during their tenure?
-6.  When a customer converts (aka their "first time win"), what plan do customers typically start on? Is is fairly flat over our plan tiers, or are one or more significantly more popular than others?
+6.  When a customer converts (aka their "first time win"), what paid plan do they typically start on? Is is fairly flat over our plan tiers, or is one or more significantly more popular than others?
 
 
 ## Deliverables
