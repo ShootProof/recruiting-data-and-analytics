@@ -46,5 +46,5 @@ Data files required for this exercise can be found at: https://github.com/ShootP
 ## Deliverables
 
 Submission for this exercise should include the following:
-1. Text file including SQL for all answers to the SQL Assessment portion of the exercise.
+1. Text file including SQL and answers for all questions in the Data Assessment portion of the exercise.
 2. Any visualizations or supporting design documents used to facilitate the answering of the questions above.
