@@ -31,16 +31,16 @@ Data (.csv) files required for this exercise can be found the included "tables" 
 2.  Then churn (see above for logic),
 3.  Finally, become a customer again.
 
-**Note on ShootProof Plans** - ShootProof has offered many plans over time, and plans are currency-specific. Most like plans can be grouped based on the max number of photos they allow to be stored. See our website for our standard plan tiers: https://www.shootproof.com/plans
+**Note on ShootProof Plans** - ShootProof has offered many plans over time, and plans are currency-specific. Most like plans can be grouped by the max number of photos they allow to be stored (1500, 5000, etc.). See our website for our standard plans: https://www.shootproof.com/plans
+
+**Note on 2020 Data** - 2020 was a hard year for everyone! Keep this in mind when looking at historical data. Trends and seasonality during this year's data could differ significantly from other years due to the pandemic. 
 
 ## Data Assessment
 
 1.  What is the likelihood a studio will have the status of "suspended" sometime during their tenure?
-2.  What is ShootProof's best time of the year for signups?
-3.  Is there an evident worst time of year for churn? If so, when?
-4.  How many studio have "boomeranged"?
-5.  What is the likelihood a studio boomerangs during their tenure?
-6.  When a customer converts (aka their "first time win"), what paid plan do they typically start on? Is is fairly flat over our plan tiers, or is one or more significantly more popular than others?
+2.  Is there an evident worst time of year for seasonal churn? If so, when?
+3.  How many studio have "boomeranged"? What is the likelihood that a studio which has converted to a paying customer boomerangs at least once during their tenure?
+4.  When a customer converts (aka their "first time win"), what paid plan tier (1500, unlimited, etc.) do they typically start on? Is is fairly flat over our plan tiers, or is one or more significantly more popular than others?
 
 
 ## Deliverables
