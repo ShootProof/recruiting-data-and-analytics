@@ -37,15 +37,13 @@ A free version of Tableau is available here: [https://public.tableau.com/en-us/s
 
 ## SQL Assessment
 
-1.  How many customers does ShootProof have?
-2.  How many customers are on currently on a plan that allows 5000 photos?
-3.  How many trials completed in June 2018?
-4.  How many customers did ShootProof have on April 30th, 2020?
-5.  How many customers churned between January 1, 2019 and January 1, 2020?
+1.  How many customers are on currently on a plan that allows 5000 photos?
+2.  How many trials completed in the month of June 2018?
+3.  How many customers did ShootProof have as of April 30th, 2020?
 
 ## Data Visualization Assessment
 
-Using a Tableau Public (or Tableau Desktop if you have a license), create a dashboard using the data available. Please limit this portion of the assessment to 1 hour
+Using a Tableau Public (or Tableau Desktop if you have a license), create a dashboard using the data available. Please limit this portion of the assessment to under 1 hour
 
 Hints:
 1. Possible items to explore are customer segmentation, customer churn, customer growth, trial conversions, etc.
