@@ -37,10 +37,9 @@ Data (.csv) files required for this exercise can be found the included "tables" 
 
 ## Data Assessment
 
-1.  What is the likelihood a studio will have the status of "suspended" sometime during their tenure?
-2.  Is there an evident worst time of year for seasonal churn? If so, when?
-3.  How many studio have "boomeranged"? What is the likelihood that a studio which has converted to a paying customer boomerangs at least once during their tenure?
-4.  When a customer converts (aka their "first time win"), what paid plan tier (1500, unlimited, etc.) do they typically start on? Is is fairly flat over our plan tiers, or is one or more significantly more popular than others?
+1.  Is there an evident worst time of year for seasonal churn? If so, when?
+2.  How many studios have "boomeranged"?
+3.  When a customer converts (aka their "first time win"), what paid plan tier (1500, unlimited, etc.) do they typically start on? Is is fairly flat over our plan tiers, or is one or more significantly more popular than others?
 
 
 ## Deliverables
